@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cardTop {
+    border-radius: 0px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-color: #ff0000;
+}
+.cardbody {
+    background-color: aquamarine;
+}
+
+.formRAd {
+    border-radius: 0px;
+}
+
+label {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cardtextArea {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cardtextArea textarea {
+    border-bottom: none;
+    background-color: #f2f2f2;;
+}
+
+.Guidance {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.Gform label {
+    letter-spacing: none;
+    line-height: none;
+}
+
+.first h5 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 51px;
+    font-weight: bolder;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    text-align: center;
+}
+
+
+.first p {
+   text-align: center;
+   font-size: 13px;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: 2px;
+   line-height: 25px;
+   text-align-last: center;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+ 
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #f2f2f2;
+}
+
+
+
+@media (min-width: 325px) {
+    .logo {
+         display: flex;
+         justify-content: center;
+    }
+
+  
+}
+
+@media (min-width: 768px) {
+   
+   
+}
+
+@media (min-width: 1024px) {
+    .logo {
+         display: flex;
+         justify-content: flex-start;
+         padding-bottom: 4rem;
+    }
+
+   
+}
